@@ -24,4 +24,4 @@ comparison on pointers
 
 ptr1 > ptr2 it will return true if ptr1 is greater then ptr 2
 
-ptr==*arr it will be true
+ptr==*arr it will be true 
