@@ -1,0 +1,27 @@
+incremet or decrement
+as we know integer takes 4 byte in mermory so if we perform ptr++ or ++ptr it jumps 4 adress forward similarly for other data types jumps according to the data type
+as we know integer takes 4 byte in mermory so if we perform ptr-- or --ptr it jumps 4 adress backward similarly for other data types jumps according to the data type
+------
+constant 
+
+ptr + 3 -> it will move address location 4 X 3 =12 location forward if the pointer type will integer
+ptr - 4 -> it will move address location 4 X 4 =16 location backward if the pointer type will integer
+
+-------
+Pointer arithmetic on array 
+as we know array's first element shows arr name itselt so if we do *(arr +1) it will move second memory loation and so forward
+
+-------
+
+addition and substraction on pointers
+
+if we perform sum on pointers ptr1 + ptr 2 // invalid 
+if we perform sub on pointers ptr1-ptr2 it is possible and it return remaining slots between two pointers but the data type of pointers should be same
+
+-------
+
+comparison on pointers
+
+ptr1 > ptr2 it will return true if ptr1 is greater then ptr 2
+
+ptr==*arr it will be true
