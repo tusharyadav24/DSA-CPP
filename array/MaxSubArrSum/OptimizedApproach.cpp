@@ -8,7 +8,6 @@ void MaxSubArrSum(int *arr,int n){
             CurrSum+=arr[end];
             MaxNum=max(MaxNum,CurrSum);
         }
-        cout<<endl;
     }
     cout<<"max num is : "<<MaxNum;
 }
