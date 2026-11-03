@@ -9,12 +9,11 @@ void print(int *arr,int n){
 void CountSort(int *arr,int n){
   int freq[10000]={0};
   int minVal=INT32_MAX,maxVal=INT32_MIN;
-  for(int i=0;i<n;i++){
-    minVal=min(minVal,arr[i]);
-    maxVal=max(maxVal,arr[i]);
-  }
+
   for(int i=0;i<n;i++){
     freq[arr[i]]++;
+    minVal=min(minVal,arr[i]);
+    maxVal=max(maxVal,arr[i]);
   }
   for(int i=minVal,j=0;i<=maxVal;i++){
     while(freq[i]>0){
