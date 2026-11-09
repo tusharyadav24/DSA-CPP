@@ -3,6 +3,8 @@
 using namespace std;
 int main(){
     vector<int> vec1(10,-1);
+    vector<int> vec2={3,5,6,4};
+    vector<int> vec3;
     for(int i=0;i<vec1.size();i++){
         cout<<vec1[i]<<" ";
     }
