@@ -6,7 +6,7 @@ bool isAnagram(string str1,string str2){
         cout<<"not a valid anagrams";
         return false;
     }
-    int count[26];
+    int count[26]={0};
     for(int i=0;i<str1.length();i++){
        count[str1[i]-'a']++;
     }
